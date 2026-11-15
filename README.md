@@ -1,16 +1,30 @@
-# React + Vite
+# Doctor Árbol
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación para gestionar la documentación de trabajadores y proyectos, y consultar el estado de validez de los documentos.
 
-Currently, two official plugins are available:
+## Equipo
+- Adrian Honrubia (@adriiklk)
+- Santiago Guerrero (@icyface)
+- Jorge Sunyer (@randomyura)
+- Joel Torroba (@joeltorroba)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Cómo arrancar el proyecto
 
-## React Compiler
+```bash
+npm install
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Después, abrir la dirección local que muestra Vite en el navegador.
 
-## Expanding the ESLint configuration
+## Enlaces
+- Repositorio: https://github.com/DAM-CITM-26/DoctorArbol
+- Trello: https://trello.com/b/ZItGZ0bc
+- Referencia: https://dam-citm-26.github.io/referencias/doctor-arbol/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Estructura de carpetas
+- `src/components/`: componentes reutilizables de React.
+- `src/pages/`: pantallas de la aplicación.
+- `src/data/`: datos de ejemplo.
+- `src/utils/`: funciones de lógica.
+- `docs/`: documentación técnica del proyecto.
