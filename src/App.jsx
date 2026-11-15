@@ -1,12 +1,19 @@
 import { useState } from 'react'
 
-
+import Inicio from './pages/Inicio.jsx'
 
 function App() {
   
 
   return (
-    <h1>Doctor Arbol</h1>
+    <>
+      <header className ="cabcera">
+        <h1>Doctor Arbol</h1>
+      </header>
+      <main>
+        <Inicio />
+      </main>
+    </>
   )
 }
 
