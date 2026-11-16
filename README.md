@@ -1,4 +1,4 @@
-# Doctor Árbol
+# Doctor Árbol · versión 2
 
 Aplicación para gestionar la documentación de trabajadores y proyectos, y consultar el estado de validez de los documentos.
 
