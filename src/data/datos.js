@@ -1,0 +1,72 @@
+export const TRABAJADORES = [
+  { id: 1, nombre: 'Marta Soler', puesto: 'Podadora en altura' },
+  { id: 2, nombre: 'Jordi Pons', puesto: 'Jefe de equipo' },
+  { id: 3, nombre: 'Laia Ferrer', puesto: 'Técnica forestal' },
+  { id: 4, nombre: 'Pau Roig', puesto: 'Operario' },
+]
+
+export const DOCUMENTOS = [
+  {
+    id: 1,
+    nombre: 'Curso de trabajos en altura',
+    tipo: 'Formación',
+    trabajadorId: 1,
+    caduca: '2027-03-16',
+  },
+  {
+    id: 2,
+    nombre: 'Reconocimiento médico',
+    tipo: 'Salud',
+    trabajadorId: 1,
+    caduca: '2026-11-28',
+  },
+  {
+    id: 3,
+    nombre: 'Carnet de motosierra',
+    tipo: 'Acreditación',
+    trabajadorId: 2,
+    caduca: '2026-11-11',
+  },
+  {
+    id: 4,
+    nombre: 'Prevención de riesgos',
+    tipo: 'Formación',
+    trabajadorId: 2,
+    caduca: '2027-06-04',
+  },
+  {
+    id: 5,
+    nombre: 'Reconocimiento médico',
+    tipo: 'Salud',
+    trabajadorId: 3,
+    caduca: '2026-12-11',
+  },
+  {
+    id: 6,
+    nombre: 'Primeros auxilios',
+    tipo: 'Formación',
+    trabajadorId: 3,
+    caduca: '2026-10-17',
+  },
+  {
+    id: 7,
+    nombre: 'Carnet de plataforma elevadora',
+    tipo: 'Acreditación',
+    trabajadorId: 4,
+    caduca: '2027-01-15',
+  },
+  {
+    id: 8,
+    nombre: 'Reconocimiento médico',
+    tipo: 'Salud',
+    trabajadorId: 4,
+    caduca: '2026-11-19',
+  },
+  {
+    id: 9,
+    nombre: 'Curso de trabajos en altura',
+    tipo: 'Formación',
+    trabajadorId: 3,
+    caduca: '2027-09-22',
+  },
+]
