@@ -1,7 +1,20 @@
+import FilaDocumento from './FilaDocumento.jsx'
+import Vacio from './Vacio.jsx'
+
 export default function ListaDocumentos({ documentos, hoy, vacio }) {
   if (documentos.length === 0) {
-    return <p>{vacio}</p>
+    return <Vacio icono="📄" texto={vacio} />
   }
 
-  return null
+  return (
+    <ul className="list">
+      {documentos.map((documento) => (
+        <FilaDocumento
+          key={documento.id}
+          documento={documento}
+          hoy={hoy}
+        />
+      ))}
+    </ul>
+  )
 }
